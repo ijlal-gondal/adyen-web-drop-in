@@ -4,10 +4,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        	<!-- Adyen JS from TEST environment (change to live for production)-->
+        <script src="https://checkoutshopper-test.adyen.com/checkoutshopper/sdk/5.23.1/adyen.js"
+        integrity="sha384-O0Q35c47I1ojd1zrD78yWAs+r5gytAjBC/sxwZqgQW5z9hDbAFM49z8SViprrDwm"
+        crossorigin="anonymous"></script>
+
+        <!-- Adyen CSS from TEST environment (change to live for production)-->
+        <link rel="stylesheet"
+        href="https://checkoutshopper-test.adyen.com/checkoutshopper/sdk/5.23.1/adyen.css"
+        integrity="sha384-y6jvSkH/EJ+EmVfUABibJST5Df3+PXlPuQveX3NigzwJmiNofEBsUXxbxoaEllaI"
+        crossorigin="anonymous">
         
         <title>Hello World Simple App</title>
     </head>
     <body>
         <div>Hello World!</div>
+
+        <div id="dropin-container"></div>
     </body>
 </html>
+
